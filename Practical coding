@@ -1,0 +1,61 @@
+//a persona data storage
+
+const Persona1 = {
+
+Name: "Maria Delos Santos Las Manas",
+
+Age: 25,
+
+Address: "Upper Session Road Baguio City Benguel"
+
+}
+
+const Persona2 = {
+
+Name: "Juan Gamoso Dela Cruz",
+
+Age: 29,
+
+Address: "San Nicolas Candon City, 1Locos Sur"
+
+}
+
+//b rearrange name sequence
+
+for personal
+
+let personal_name_split = Personal. Name.split(" "); Persona1.Name = `${personal_name_split.pop()} ${personal_name_split.slice(1).join("")} ${personal_name_split[0]}`; console.log(Personal)
+
+// for persona2
+
+let persona2_name_split = Persona2. Name.split(" "); Persona2.Name = ${persona2_name_split.pop()} ${persona2_name_split.slice(1).join("")} ${persona2_name_split[0]}`;
+
+// b completed
+
+// c console log out
+
+console.log('${Personal. Name} ${Persona1.Age} ${Persona1.Address}`) console.log(${Persona2.Name} ${Persona2.Age} ${Persona2.Address}`)
+
+// c completed
+
+// d Variable Manipulations
+
+const lengthOfName1 = personal.name.length;
+
+const lengthOfName2 = persona2.name.length;
+
+const lengthOfAddress1 = personal.address.length;
+
+const lengthOfAddress2 = persona2.address.length;
+
+// e. Operations
+
+const sumOfAges = personal.age + persona2.age;
+
+const result = (sumOfAges lengthOfName1) * lengthOfName2;
+
+const powerResult = Math.pow(lengthOfAddress1, lengthOfAddress2);
+
+console.log('Sum of all numeric values: ${personal.age persona2.age + lengthOfName1 + length0fName2 + lengthOfAddress1 + length0fAddress2}`); console.log(`(Age sum - Length of Persona 1's name) Length of Persona 2's name: ${result}`); *
+
+console.log('Length of Persona 1's address Length of Persona 2's address: ${powerResult}`);
